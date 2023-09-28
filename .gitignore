@@ -1,0 +1,4 @@
+*.pyc
+.idea/*
+# Ignore PostgreSQL data directory
+C:/Program Files/PostgreSQL/15/data/
