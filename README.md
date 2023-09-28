@@ -2,6 +2,8 @@
 Завдання:
 В проекті Django є 2 застосунки (apps) - spend та revenue
 
+
+
 файл models.py в Spend має наступний вигляд:
 class SpendStatistic(models.Model):
    name = models.CharField(max_length=255)
@@ -32,7 +34,6 @@ class RevenueStatistic(models.Model):
 4. pip install psycopg2 django djangorestframework
 5. django-admin startproject profit_pulse
 6. pip freeze > requirements.txt
-7*. pip install -r requirements.txt
 8. python manage.py startapp spend
 9. python manage.py startapp revenue
 10. models.py in Spend:
