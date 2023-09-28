@@ -2,8 +2,6 @@
 Завдання:
 В проекті Django є 2 застосунки (apps) - spend та revenue
 
-
-
 файл models.py в Spend має наступний вигляд:
 class SpendStatistic(models.Model):
    name = models.CharField(max_length=255)
@@ -24,6 +22,9 @@ class RevenueStatistic(models.Model):
 Написати файл views.py в spend. Реалізувати ендпоинт в якому ми отримуємо queryset моделі SpendStatistic з поділом по дням (date) та назвою (name), з агрегованими сумами значень spend, impressions, clicks, conversion та пов'язаними значеннями revenue з моделі RevenueStatistic.
 Використовувати засоби Django Rest Framework.
 Не створювати серіалайзер.
+
+
+
 
 
 Основні 22 кроки реалізації:
